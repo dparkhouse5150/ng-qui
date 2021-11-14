@@ -9,6 +9,7 @@ import { RegisterComponent } from './user/register/register.component';
 import { CheckEmailComponent } from './user/check-email/check-email.component';
 import { ForgotPasswordComponent } from './user/forgot-password/forgot-password.component';
 import { RegistrationCompleteComponent } from './user/registration-complete/registration-complete.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RegistrationCompleteComponent } from './user/registration-complete/regi
     RegisterComponent,
     CheckEmailComponent,
     ForgotPasswordComponent,
-    RegistrationCompleteComponent
+    RegistrationCompleteComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
